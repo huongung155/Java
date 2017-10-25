@@ -1,0 +1,29 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="top_center" hgap="10" vgap="10" gridLinesVisible="true">
+<columnConstraints>
+    <ColumnConstraints percentWidth="50.0"/>
+    <ColumnConstraints percentWidth="50.0"/>
+</columnConstraints>
+<Button text = "Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+<Button text = "Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+<Button text = "Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+<Button text = "Really Long button Four" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+<Button text = "Button Five" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <!--<padding>
+        <Insets top = "10"/>
+    </padding>
+    &lt;!&ndash;<Label text = "Hello World" textFill="green">
+        <font>
+            <Font name = "Times New Roman bold" size="70"/>
+        </font>
+    </Label>&ndash;&gt;
+    <Button text = "Button One" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.halignment="CENTER"/>
+    <Button text = "Button Two" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Button text = "Button Three" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Button text = "Really Long button Four" GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+    <Button text = "Button Five" GridPane.rowIndex="4" GridPane.columnIndex="0"/>-->
+</GridPane>

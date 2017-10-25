@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Quan</first_name>
+	<last_name>Luu</last_name>
+	<phone_number>090802145</phone_number>
+	<notes>My notes</notes>
+</contact>
+<contact>
+	<first_name>Duy</first_name>
+	<last_name>Le</last_name>
+	<phone_number>02365409</phone_number>
+	<notes>Her notes</notes>
+</contact>
+<contact>
+	<first_name>Son</first_name>
+	<last_name>Quoc</last_name>
+	<phone_number>02365963</phone_number>
+	<notes>Their notes</notes>
+</contact>
+</contacts>

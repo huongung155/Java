@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Quan</first_name>
+	<last_name>Luu</last_name>
+	<phone_number>0908426</phone_number>
+	<notes>my notes</notes>
+</contact>
+<contact>
+	<first_name>Hai</first_name>
+	<last_name>Son</last_name>
+	<phone_number>102310</phone_number>
+	<notes>The notes</notes>
+</contact>
+</contacts>

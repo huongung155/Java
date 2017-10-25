@@ -1,0 +1,5 @@
+RECEIVE MAIL	RECEIVE MAIL FROM	22-04-2016
+Receive Mail Quan	Receive Mail Quan important	27-04-2017
+Receive Mail from Duy	Receive Mail from Duy neccesary	11-04-2017
+Receive Mail From Hai	Receive Mail From Hai important	12-04-2017
+Receive Email From An	Receive Email From An important	27-04-2017

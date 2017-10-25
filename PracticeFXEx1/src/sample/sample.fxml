@@ -1,0 +1,60 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml" fx:id="mainBorderPane">
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text="File">
+                    <MenuItem text="New..." onAction="#showNewItemDialog"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Exit"/>
+                </Menu>
+            </MenuBar>
+            <ToolBar>
+                <Button onAction="#showNewItemDialog">
+                    <tooltip>
+                        <Tooltip text="Add a New Todo Item"/>
+                    </tooltip>
+                    <graphic>
+                        <ImageView>
+                            <Image url="@/toolbarButtonGraphics/general/New24.gif"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <ToggleButton fx:id="filterToggleButton" text="Today's Items" onAction="#handleFilterButton">
+                    <tooltip>
+                        <Tooltip text="Button Down: Show Today's items only. Button Up: Show all items"/>
+                    </tooltip>
+                </ToggleButton>
+            </ToolBar>
+        </VBox>
+    </top>
+    <left>
+        <ListView fx:id="listView" onMouseClicked="#handleChange" onKeyPressed="#handleKeyPressed">
+
+        </ListView>
+    </left>
+    <center>
+        <VBox>
+            <TextArea fx:id="textArea" VBox.vgrow="ALWAYS"/>
+            <HBox>
+                <Label text="Due: ">
+                    <font>
+                        <Font name = "Times new Roman" size="22"/>
+                    </font>
+                </Label>
+                <Label fx:id="label">
+                    <font>
+                        <Font name="Times New Roman" size="22"/>
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>
